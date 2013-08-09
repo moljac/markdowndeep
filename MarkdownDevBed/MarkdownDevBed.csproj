@@ -58,7 +58,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MarkdownDeep\MarkdownDeep.csproj">
       <Project>{1569ED47-C7C9-4261-B6F4-7445BD0F2C95}</Project>
-      <Name>MarkdownDeep</Name>
+      <Name>MarkdownDeep %28MarkdownDeep\MarkdownDeep%29</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

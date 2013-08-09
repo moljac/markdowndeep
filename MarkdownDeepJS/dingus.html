@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head>
 <title>MarkdownDeep JavaScript Test Page</title>
-<link rel="stylesheet" href="mdd_styles.css" type="text/css" />
-<link rel="stylesheet" href="dingus.css" type="text/css" />
-<script type="text/javascript" src="jquery-1.4.2.js"></script>
-<script type="text/javascript" src="MarkdownDeep.js"></script>
-<script type="text/javascript" src="MarkdownDeepEditor.js"></script>
-<script type="text/javascript" src="MarkdownDeepEditorUI.js"></script>
+<link rel="stylesheet" type="text/css"	href="css/mdd_styles.css"  />
+<link rel="stylesheet" type="text/css"	href="css/dingus.css" />
+<script type="text/javascript"			src="js/jquery-1.4.2.js"></script>
+<script type="text/javascript"			src="js/MarkdownDeep.js"></script>
+<script type="text/javascript"			src="js/MarkdownDeepEditor.js"></script>
+<script type="text/javascript"			src="js/MarkdownDeepEditorUI.js"></script>
 <script type="text/javascript">
 	$(function () {
 		$(".mdd_editor").MarkdownDeep({
@@ -39,7 +39,8 @@
 
 <div style="width:800px;margin: 0 auto;">
 <div class="mdd_toolbar_wrap"><div class="mdd_toolbar"></div></div>
-<div class="mdd_editor_wrap"><textarea cols="20" rows="20" class="mdd_editor">## Welcome to MarkdownDeep
+<div class="mdd_editor_wrap"><textarea cols="20" rows="20" class="mdd_editor">
+## Welcome to MarkdownDeep
 
 This demo page lets you try the JavaScript version of MarkdownDeep in your browser.
 
@@ -54,6 +55,144 @@ extensions, is open source and has many other useful integration features.
 
 [Read more here](http://www.toptensoftware.com/markdowndeep).
 
+
+*italic*   **bold**
+_italic_   __bold__
+
+
+[HolisticWare site](http://holisticware.net/ "HolisticWare")
+
+
+
+![HolisticWare logo](http://holisticware.net/Frontend/Images/logo.png "Title")
+
+
+
+![HolisticWare logo][id]
+
+[id]: http://holisticware.net/Frontend/Images/logo.png "HolisticWare logo"
+
+
+
+Header 1
+========
+
+
+Header 2
+--------
+
+
+
+# Header 1 #
+
+## Header 2 ##
+
+###### Header 6
+
+
+
+1.  Foo
+2.  Bar
+
+
+*   A list item.
+
+	With multiple paragraphs.
+
+*   Bar
+
+
+
+
+*   Abacus
+	* answer
+*   Bubbles
+	1.  bunk
+	2.  bupkis
+		* BELITTLER
+	3. burper
+*   Cunning
+
+
+> Email-style angle brackets
+> are used for blockquotes.
+
+> > And, they can be nested.
+
+> #### Headers in blockquotes
+> 
+> * You can quote a list.
+> * Etc.
+
+
+> Email-style angle brackets
+> are used for blockquotes.
+
+> > And, they can be nested.
+
+> #### Headers in blockquotes
+> 
+> * You can quote a list.
+> * Etc.
+
+
+
+This is a normal paragraph.
+
+	This is a preformatted
+	code block.
+
+
+---
+
+* * *
+
+- - - - 
+
+
+
+
+<div markdown="1">
+Markdown **still** works.
+</div>
+
+
+
+
+~~~
+This is a preformatted
+code block
+~~~
+
+
+Fruit    |Color
+---------|----------
+Apples   |Red
+Pears	 |Green
+Bananas  |Yellow
+
+
+
+
+
+Term 1
+: Definition 1
+
+Term 2
+: Definition 2
+
+
+
+
+Body text with a footnote [^1]
+
+[^1]: Footnote text here
+
+
+
+MDD <- will have title
+
+*[MDD]: MarkdownDeep
 </textarea></div>
 <div class="mdd_resizer_wrap"><div class="mdd_resizer"></div></div>
 <div class="mdd_preview"></div>

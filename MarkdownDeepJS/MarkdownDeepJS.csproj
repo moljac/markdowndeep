@@ -17,6 +17,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -64,24 +65,24 @@
     <Content Include="MarkdownDeep License.txt" />
     <Content Include="MarkdownDeep Quick Reference.txt" />
     <Content Include="dingus_min.html" />
-    <Content Include="dingus.css" />
+    <Content Include="css\dingus.css" />
     <Content Include="dingus.html" />
-    <Content Include="jquery-1.4.2.js" />
-    <Content Include="jquery-1.4.2.min.js" />
-    <Content Include="MarkdownDeep.js" />
-    <Content Include="MarkdownDeep.min.js" />
-    <Content Include="MarkdownDeepEditor.js" />
-    <Content Include="MarkdownDeepEditor.min.js" />
-    <Content Include="MarkdownDeepEditorUI.js" />
-    <Content Include="MarkdownDeepEditorUI.min.js" />
-    <Content Include="MarkdownDeepLib.js" />
-    <Content Include="MarkdownDeepLib.min.js" />
+    <Content Include="js\jquery-1.4.2.js" />
+    <Content Include="js\jquery-1.4.2.min.js" />
+    <Content Include="js\MarkdownDeep.js" />
+    <Content Include="js\MarkdownDeep.min.js" />
+    <Content Include="js\MarkdownDeepEditor.js" />
+    <Content Include="js\MarkdownDeepEditor.min.js" />
+    <Content Include="js\MarkdownDeepEditorUI.js" />
+    <Content Include="js\MarkdownDeepEditorUI.min.js" />
+    <Content Include="js\MarkdownDeepLib.js" />
+    <Content Include="js\MarkdownDeepLib.min.js" />
     <Content Include="mdd_ajax_loader.gif" />
-    <Content Include="mdd_gripper.png" />
+    <Content Include="css\mdd_gripper.png" />
     <Content Include="mdd_help.htm" />
-    <Content Include="mdd_modal_background.png" />
-    <Content Include="mdd_styles.css" />
-    <Content Include="mdd_toolbar.png" />
+    <Content Include="css\mdd_modal_background.png" />
+    <Content Include="css\mdd_styles.css" />
+    <Content Include="css\mdd_toolbar.png" />
     <Content Include="readme.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
